@@ -53,4 +53,7 @@ async def on_message(message):
     except KeyError:
         pass
 
-client.run(token)
+try:
+    client.run(token)
+except:
+    print("ERROR!")
