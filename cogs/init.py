@@ -18,7 +18,7 @@ with open("cogs/config.txt", 'r') as file:
     config = load(file)
 if config["First_Time"]:
     print("I see this is your first time!\r\nLet's take a minute to set some things up")
-    token = input("Your Bot's token that you get from applying at https://discordapp.com/developers/applications/me\r\n")
+    token = input("Your Bot's token that you get from applying at 'https://discordapp.com/developers/applications/me':\r\n")
     with open("cogs/config.txt", 'w') as file:
         file.write(dump({
             "First_Time": False,
