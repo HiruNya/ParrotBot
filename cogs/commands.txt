@@ -1,0 +1,16 @@
+# The format is as follows:
+# Command : Response
+
+# Your commands may have spaces but if they contain a symbol (! in this case) at the start,
+# it would be better to enclose them in speech marks.
+
+# YOUR COMMANDS MUST BE IN LOWER CASE OR ELSE THEY WILL NOT WORK
+# (Your response may be in whatever case)
+
+# You must run the program again if you would like updates to this list to be noticed
+
+# These are two examples, you may add as many as you would like and you may remove these ones
+# Have fun!
+
+"!sens" : 450dpi with 7 in-game sens
+hello world : Hi Steven!
